@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_pipe_MIPS32_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_pipe_MIPS32" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="716.006 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="131"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_pipe_MIPS32/clk1" type="logic">
+      <obj_property name="ElementShortName">clk1</obj_property>
+      <obj_property name="ObjectShortName">clk1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/clk2" type="logic">
+      <obj_property name="ElementShortName">clk2</obj_property>
+      <obj_property name="ObjectShortName">clk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/mips/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/mips/Reg[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/mips/Reg[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/mips/Reg[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/mips/Reg[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/mips/Reg[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/mips/HALTED" type="logic">
+      <obj_property name="ElementShortName">HALTED</obj_property>
+      <obj_property name="ObjectShortName">HALTED</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/mips/IF_ID_IR" type="array">
+      <obj_property name="ElementShortName">IF_ID_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/mips/ID_EX_IR" type="array">
+      <obj_property name="ElementShortName">ID_EX_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/mips/EX_MEM_IR" type="array">
+      <obj_property name="ElementShortName">EX_MEM_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipe_MIPS32/mips/MEM_WB_IR" type="array">
+      <obj_property name="ElementShortName">MEM_WB_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_IR[31:0]</obj_property>
+   </wvobject>
+</wave_config>
